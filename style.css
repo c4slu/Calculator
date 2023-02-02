@@ -1,0 +1,108 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Rubik', sans-serif;
+}
+
+body{
+  background: linear-gradient(180deg, #807ECE 0%, #8E7ECE 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  height: 100vh;
+  width: 100vw;
+}
+
+
+.container-calc{
+  
+  background: #2D2A37;
+  width: 214px;
+  height: 342px;
+  text-align: center;
+  border-radius: 30px;
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 188px 52px rgba(0, 0, 0, 0.01), 0px 120px 48px rgba(0, 0, 0, 0.04), 0px 68px 41px rgba(0, 0, 0, 0.15), 0px 30px 30px rgba(0, 0, 0, 0.26), 0px 8px 17px rgba(0, 0, 0, 0.29), inset 0px 6px 8px rgba(255, 255, 255, 0.1), inset 0px -4px 5px rgba(0, 0, 0, 0.22);
+
+  position: absolute;
+}
+
+p{
+  position: absolute;
+  top: 19%;
+  left: 20px;
+  font-size: 20px;
+  color: #6B6B6B;
+}
+
+.displays{
+  width: 100%;
+  height: 70px;
+  text-align: center; 
+  position: relative
+  animation: moveUp 2s ease-in-out;
+  top: -100%;
+}
+
+
+input{ 
+  background: transparent;
+  text-align: right;
+  font-size: 12px;
+  border: none;
+  color: white;
+
+  padding: 0px 30px;
+
+  font-size: 20px;
+  width: 100%;
+  height: 50%
+
+}
+
+#display-ant{
+  color: #6B6B6B;
+  font-size: 12px
+
+  
+}
+
+button{
+  width: 40px;
+  height: 40px;
+
+  border-radius: 999px;
+
+  margin: 2px;
+
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.05) 0%, rgba(255, 255, 255, 0.05) 100%), #2D2A37;
+  box-shadow: 0px 11px 7px rgba(0, 0, 0, 0.01), 0px 7px 7px rgba(0, 0, 0, 0.04), 0px 4px 6px rgba(0, 0, 0, 0.1), 0px 2px 4px rgba(0, 0, 0, 0.26), 0px 0px 2px rgba(0, 0, 0, 0.29), inset 0px 2px 3px rgba(255, 255, 255, 0.06);
+
+  color: white;
+  border: 1px;
+
+  font-size: 15px;
+  cursor: pointer;
+}
+
+#backspace{
+  background: url(./src/simbol.svg) no-repeat center center;
+}
+#backspace:hover{
+
+  background: url(./src/simbol.svg) no-repeat center center, linear-gradient(180deg, rgba(0, 0, 0, 0.15) 0%, rgba(255, 255, 255, 0.05) 100%), #7F45E2;
+
+  opacity: 0.8;
+}
+
+button:hover{
+  opacity: 0.8;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.15) 0%, rgba(255, 255, 255, 0.05) 100%), #7F45E2;
+}

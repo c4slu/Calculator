@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+  <link rel="shortcut icon" href="./src/favicon.svg" type="image/svg">
+  <link rel="stylesheet" href="./style.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculadora - #BoraCodar</title>
+</head>
+<body>
+  <div class="container-calc">
+    <p>=</p>
+    <div class="displays">
+      <input type="text" id="display-ant" value="">
+      <input type="text" id="display" value="">    
+    </div>
+    <div class="buttons">
+      <button id="clear-ult" style="color: #975DFA;">CE</button>
+      <button id="clear">C</button>
+      <button id="percent" value="%">%</button>
+      <button class="operator" value="/" style="background: linear-gradient(180deg, rgba(0, 0, 0, 0.05) 0.01%, rgba(255, 255, 255, 0.05) 100%), #462878;">&divide;</button>
+      <br>
+      <button class="number" value="7">7</button>
+      <button class="number" value="8">8</button>
+      <button class="number" value="9">9</button>
+      <button class="operator" value="*" style="background: linear-gradient(180deg, rgba(0, 0, 0, 0.05) 0.01%, rgba(255, 255, 255, 0.05) 100%), #462878;">&times;</button>
+      <br>
+      <button class="number" value="4">4</button>
+      <button class="number" value="5">5</button>
+      <button class="number" value="6">6</button>
+      <button class="operator" value="-" style="background: linear-gradient(180deg, rgba(0, 0, 0, 0.05) 0.01%, rgba(255, 255, 255, 0.05) 100%), #462878;">-</button>
+      <br>
+      <button class="number" value="1">1</button>
+      <button class="number" value="2">2</button>
+      <button class="number" value="3">3</button>
+      <button class="operator" value="+" style="background: linear-gradient(180deg, rgba(0, 0, 0, 0.05) 0.01%, rgba(255, 255, 255, 0.05) 100%), #462878;">+</button>
+      <br>
+      <button id="backspace" value="">ﾠ</button>
+      <button class="number" value="0">0</button>
+      <button id="decimal">.</button>
+      <button id="equals" style="background: linear-gradient(180deg, rgba(0, 0, 0, 0.15) 0%, rgba(255, 255, 255, 0.05) 100%), #7F45E2;">=</button>
+      
+      
+    </div>
+  </div>
+  
+</body>
+<script src="./script.js"></script>
+</html>
